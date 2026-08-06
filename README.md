@@ -2,8 +2,6 @@
 
 一個使用 HTML、CSS 與原生 JavaScript 製作的輕量待辦事項網頁，資料儲存在瀏覽器的 `localStorage`，不需要後端服務或任何套件即可執行。
 
-本專案同時作為「Claude Code 專案遷移至 OpenCode」的教學範例，Claude Code 階段只完成基礎版本，部分功能刻意保留給 OpenCode 接手實作。
-
 ## 功能列表
 
 * 新增待辦事項（點擊按鈕或按 Enter）
@@ -61,12 +59,3 @@ uv run python -m http.server 8000 -d src
 * 基本無障礙支援（label、aria-label、鍵盤操作、focus 樣式）
 * 響應式版面，適應較窄的視窗
 
-## 尚未完成項目（預留給 OpenCode）
-
-以下功能刻意尚未實作，將由後續 OpenCode 階段接手：
-
-* 全部／待完成／已完成篩選功能
-* 清除所有已完成項目的功能
-* 篩選狀態的視覺樣式
-
-畫面中已預留放置上述功能的區域，但目前不包含任何可操作的篩選或清除按鈕。
