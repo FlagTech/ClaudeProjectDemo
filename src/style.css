@@ -147,10 +147,6 @@ body {
   font-weight: 700;
 }
 
-.controls-placeholder {
-  min-height: 0;
-}
-
 .task-list-section {
   background-color: var(--color-surface);
   border: 1px solid var(--color-border);
